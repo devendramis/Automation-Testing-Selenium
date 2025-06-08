@@ -7,4 +7,6 @@ driver = webdriver.Chrome()
 driver.get("https://www.spirithalloween.com/")
 time.sleep(5)
 
+print("Hii Every one how are you")
+
 driver.find_element(By.CLASS_NAME,"js-keyword combobox__native-control rfk_sb").click("Search")
